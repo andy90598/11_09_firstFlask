@@ -2,11 +2,11 @@ from flask import Flask,request
 from a11_3_news import news
 app = Flask(__name__) #這段是一定要打的
 
-@app.route('/') #這段是路徑
+@app.route('/abc') #這段是路徑
 def hello_world():
     return 'hello'
 
-@app.route('/abc',methods=['POST','GET']) #增加POST GET
+@app.route('/',methods=['POST','GET']) #增加POST GET
 def hello_world2():
     if request.method=='POST':
         return "POST"
