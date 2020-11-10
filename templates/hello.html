@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first templates</title>
+    <style>
+        table,tr,td{
+            color:red;
+            border: 1px solid black;
+        }
+        .red{
+            color: red;
+        }
+        .blue{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        {{title}}
+    </h1>
+    {% for i in Info: %}
+    <h2>
+        {{i['name']}}
+    </h2>
+    {%endfor%}
+    <div>
+        hello
+        <a href="http://127.0.0.1:5000/headnews">查看頭條新聞</a>
+    </div>
+    <table>
+        <tbody>
+            {%for i in Info:%}
+                <tr>
+                    <td class="{%if i['name']=='andy':%}red{%else:%}blue{%endif%}">{{i['name']}}</td>
+                    <td class="{%if i['sex']=='male':%}blue{%else:%}red{%endif%}">{{i['sex']}}</td>
+                </tr>x
+            {%endfor%}
+        </tbody>
+    </table>
+</body>
+</html>
