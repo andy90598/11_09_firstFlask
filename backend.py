@@ -31,8 +31,8 @@ def hello_world():
                 "messages":[
                     {
                         "type": "sticker",
-                        "packageId": sticker,
-                        "stickerId": packageID
+                        "packageId": packageID,
+                        "stickerId": sticker
                     },
                 ]
             }
