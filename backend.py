@@ -16,8 +16,8 @@ def hello_world():
         a=news()
         newstitle=''
         if text in a['headNews'][0].keys():
-            for i in a['headNews'][0][text]['title']:
-                newstitle=newstitle+i+'\n'
+            for i in range(len(a['headNews'][0][text]['title'])) :
+                newstitle=newstitle+a['headNews'][0][text]['title'][i]+'\n'+newstitle+a['headNews'][0][text]['link'][i]+'\n'+'------------------------'
         # for i in a.keys():
         #     print(i)
         #     for j in a[i]:
