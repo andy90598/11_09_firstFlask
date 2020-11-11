@@ -42,7 +42,7 @@ def hello_world():
                     },
                 ]
             }
-        elif text in a['headNews'][0].keys():
+        elif newstitle != '':
             data={
                 "replyToken":replyToken,
                 "messages":[
