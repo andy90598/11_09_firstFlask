@@ -1,14 +1,41 @@
 from flask import Flask,request,render_template
 from a11_3_news import news
+import requests
+
 app = Flask(__name__) #這段是一定要打的
 
 @app.route('/',methods=['POST','GET']) #這段是路徑
 def hello_world():
     if request.method=='POST':
-        data = request.get_json()
-        print(data)
-        print('replay token=',data['events'][0]['replyToken'])
-        print('text=',data['events'][0]['message']['text'])
+        message = request.get_json() #存對方送進來的資料
+        print(message)
+        replyToken=message['events'][0]['replyToken'] #存token
+        text=message['events'][0]['message']['text'] #存text
+        print('replay token=',message['events'][0]['replyToken'])
+        print('text=',message['events'][0]['message']['text'])
+        
+        #####################################################################
+        ############################reply user###############################
+        url='https://api.line.me/v2/bot/message/reply'
+        accessToken='zTG6hdHrhApoeawkkdWpvspMdPq2Sc7SSztnQvIZmRiEWfamI8hFdMoRrpSoChN/ME27bdbC2nsCtchvVVfaY+CS0Tj8RQDAcqlTIq7ujZ6uAnn7UnmqxT/0X5fK4vq0UQrg9tEsTPJNlAT+JvOy4QdB04t89/1O/w1cDnyilFU='
+        headers={
+            'Content-Type':'application/json',
+            'Authorization':'Bearer '+accessToken #Bearer後面要空一格
+        }
+        
+        data={
+            "replyToken":replyToken,
+            "messages":[
+                {
+                    "type":"text",
+                    "text":text
+                },
+            ]
+        }
+
+        r=requests.post(url,headers=headers,data=data)
+        #####################################################################
+        ############################reply user###############################
         return "POST"
     else:
         return "GET"
