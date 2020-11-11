@@ -7,6 +7,8 @@ def hello_world():
     if request.method=='POST':
         data = request.get_json()
         print(data)
+        print('replay token=',data[0]['replyToken'])
+        print('text=',data[0]['message']['text'])
         return "POST"
     else:
         return "GET"
