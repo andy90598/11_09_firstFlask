@@ -42,7 +42,7 @@ def hello_world():
                     },
                 ]
             }
-        else:
+        elif text in a['headNews'][0].keys():
             data={
                 "replyToken":replyToken,
                 "messages":[
@@ -50,10 +50,16 @@ def hello_world():
                         "type":"text",
                         "text":newstitle
                     },
-                    # {
-                    #     "type":"text",
-                    #     "text":link[0]
-                    # },
+                ]
+            }
+        else:
+            data={
+                "replyToken":replyToken,
+                "messages":[
+                    {
+                        "type":"text",
+                        "text":text
+                    }
                 ]
             }
         r=requests.post(url,headers=headers,data=json.dumps(data))
