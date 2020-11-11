@@ -4,10 +4,11 @@ import requests
 import json
 
 app = Flask(__name__) #這段是一定要打的
-c=[]
+
 @app.route('/',methods=['POST','GET']) #這段是路徑
 def hello_world():
     if request.method=='POST':
+        c=[]
         message = request.get_json().get('events')[0] #存對方送進來的資料
         print(message)
         replyToken=message.get('replyToken') #存token
