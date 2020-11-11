@@ -5,6 +5,8 @@ app = Flask(__name__) #這段是一定要打的
 @app.route('/',methods=['POST','GET']) #這段是路徑
 def hello_world():
     if request.method=='POST':
+        data = request.get_json()
+        print(data)
         return "POST"
     else:
         return "GET"
