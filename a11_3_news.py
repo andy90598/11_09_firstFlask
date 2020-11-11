@@ -26,9 +26,6 @@ def news():
     # f=open('./json/text.json','w',encoding='UTF-8')
     # f.write(str1)
     # f.close()
-a=news()
-for i in a['headNews'][0]['新頭殼']['title']:
-    print(i)
 
 # str1=json.dumps(a,indent=4,ensure_ascii=False)
 # f=open('./json/news.json','w',encoding='UTF-8')
