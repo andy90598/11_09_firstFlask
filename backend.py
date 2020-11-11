@@ -7,8 +7,7 @@ app = Flask(__name__) #這段是一定要打的
 
 @app.route('/',methods=['POST','GET']) #這段是路徑
 def hello_world():
-    if request.method=='POST':
-        c=[]
+    if request.method=='POST':        
         message = request.get_json().get('events')[0] #存對方送進來的資料
         print(message)
         replyToken=message.get('replyToken') #存token
@@ -19,9 +18,9 @@ def hello_world():
         print('text=',text)
         a=news()
         if text in a.keys():
-            text="'"+text+"'"
+            c=[]
             for i in a[text]:
-                c=c.append(i)
+                c.append(i)
                 text=c
         # for i in a.keys():
         #     print(i)
