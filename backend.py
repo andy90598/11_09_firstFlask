@@ -19,7 +19,7 @@ def hello_world():
         for i in a['headNews'][0]:
             media=media+i+'\n'
         if text in a['headNews'][0].keys():
-            for i in range(len(a['headNews'][0]['新頭殼']['title'])) :
+            for i in range(len(a['headNews'][0][text]['title'])) :
                 newstitle=newstitle+a['headNews'][0][text]['title'][i]+'\n'+a['headNews'][0][text]['link'][i]+'\n'+'------------------------'+'\n'
         # for i in a.keys():
         #     print(i)
