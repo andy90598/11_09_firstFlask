@@ -13,12 +13,13 @@ def news():
         if b.get(data2[i].text)==None:
             b[data2[i].text]=[]
         b[data2[i].text].append(data[i].text)
-    str1=json.dumps(b,indent=4,ensure_ascii=False)
-    return str1
+    return b
+    # str1=json.dumps(b,indent=4,ensure_ascii=False)
+    # return str1
     # f=open('./json/text.json','w',encoding='UTF-8')
     # f.write(str1)
     # f.close()
-# a=news()
+
 # for i in a.keys():
 #     print(i)
 #     for j in a[i]:

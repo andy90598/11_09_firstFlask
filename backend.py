@@ -16,7 +16,14 @@ def hello_world():
         packageID=message.get('message').get('packageId')
         print('replay token=',replyToken)
         print('text=',text)
-        
+        a=news()
+        if text in a.keys():
+            text='有'
+        # for i in a.keys():
+        #     print(i)
+        #     for j in a[i]:
+        #         print(j)
+        #     print('--------------------')
         #####################################################################
         ############################reply user###############################
         url='https://api.line.me/v2/bot/message/reply'
