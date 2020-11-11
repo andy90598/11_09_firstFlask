@@ -2,6 +2,7 @@ from flask import Flask,request,render_template
 from a11_3_news import news
 import requests
 import json
+import random
 
 app = Flask(__name__) #這段是一定要打的
 
@@ -14,6 +15,7 @@ def hello_world():
         sticker=message.get('message').get('stickerId')
         packageID=message.get('message').get('packageId')
         a=news()
+        replyMSG=text
         newstitle=''
         media=''
         for i in a['headNews'][0]:
@@ -21,6 +23,17 @@ def hello_world():
         if text in a['headNews'][0].keys():
             for i in range(len(a['headNews'][0][text]['title'])) :
                 newstitle=newstitle+a['headNews'][0][text]['title'][i]+'\n'+a['headNews'][0][text]['link'][i]+'\n'+'------------------------'+'\n'
+            replyMSG=newstitle
+        fist = ['剪刀','石頭','布']
+        if text in fist:
+                ai = random.randint(0,2)
+                player = fist.index(text)
+                if ai == player :
+                    replyMSG="電腦出"+fist[ai]+"，平手"
+                elif (ai== 0 and player==1) or (ai == 1 and player == 2) or (ai == 2 and player == 0):
+                    replyMSG="電腦出"+fist[ai]+"，你獲勝"
+                else: 
+                    replyMSG="電腦出"+fist[ai]+"，你輸了"
         # for i in a.keys():
         #     print(i)
         #     for j in a[i]:
@@ -45,16 +58,6 @@ def hello_world():
                     },
                 ]
             }
-        elif newstitle != '':
-            data={
-                "replyToken":replyToken,
-                "messages":[
-                    {
-                        "type":"text",
-                        "text":newstitle
-                    },
-                ]
-            }
         elif text=='新聞':
             data={
                 "replyToken":replyToken,
@@ -68,15 +71,14 @@ def hello_world():
                         "text":"輸入想找的媒體"
                     },
                 ]
-            }
-        
+            }       
         else:
             data={
                 "replyToken":replyToken,
                 "messages":[
                     {
                         "type":"text",
-                        "text":text
+                        "text":replyMSG
                     }
                 ]
             }
