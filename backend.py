@@ -4,7 +4,7 @@ import requests
 import json
 
 app = Flask(__name__) #這段是一定要打的
-
+c=[]
 @app.route('/',methods=['POST','GET']) #這段是路徑
 def hello_world():
     if request.method=='POST':
@@ -18,7 +18,9 @@ def hello_world():
         print('text=',text)
         a=news()
         if text in a.keys():
-            text='有'
+            for i in  a[text]:
+                c=c.append(i)
+                text=c
         # for i in a.keys():
         #     print(i)
         #     for j in a[i]:
