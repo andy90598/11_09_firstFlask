@@ -63,6 +63,10 @@ def hello_world():
                         "type":"text",
                         "text":media
                     },
+                    {
+                        "type":"text",
+                        "text":"輸入想找的媒體"
+                    },
                 ]
             }
         
