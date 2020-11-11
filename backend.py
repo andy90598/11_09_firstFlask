@@ -1,6 +1,7 @@
 from flask import Flask,request,render_template
 from a11_3_news import news
 import requests
+import json
 
 app = Flask(__name__) #這段是一定要打的
 
@@ -32,8 +33,7 @@ def hello_world():
                 },
             ]
         }
-
-        r=requests.post(url,headers=headers,data=data)
+        r=requests.post(url,headers=headers,data=json.dumps(data))
         #####################################################################
         ############################reply user###############################
         return "POST"
