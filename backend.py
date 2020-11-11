@@ -21,8 +21,8 @@ def hello_world():
             c=[]
             for i in a[text]:
                 c.append(i)
-                print(c)
-                text=c
+            print(c)
+            text=c
         # for i in a.keys():
         #     print(i)
         #     for j in a[i]:
