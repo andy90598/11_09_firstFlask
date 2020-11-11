@@ -48,7 +48,7 @@ def hello_world():
                 ]
             }
         else:
-            for i in range (len(c)):
+            for i in range (len(text)):
                 data={
                     "replyToken":replyToken,
                     "messages":[
@@ -58,7 +58,7 @@ def hello_world():
                         },
                     ]
                 }
-                r=requests.post(url,headers=headers,data=json.dumps(data))
+            r=requests.post(url,headers=headers,data=json.dumps(data))
         #####################################################################
         ############################reply user###############################
         return "POST"
