@@ -13,6 +13,7 @@ def hello_world():
         replyToken=message.get('replyToken') #存token
         text=message.get('message').get('text') #存text
         sticker=message.get('message').get('stickerId')
+        packageID=message.get('message').get('packageId')
         print('replay token=',replyToken)
         print('text=',text)
         
@@ -30,8 +31,8 @@ def hello_world():
                 "messages":[
                     {
                         "type": "sticker",
-                        "packageId": "1",
-                        "stickerId": "1"
+                        "packageId": sticker,
+                        "stickerId": packageID
                     },
                 ]
             }
