@@ -9,20 +9,15 @@ app = Flask(__name__) #這段是一定要打的
 def hello_world():
     if request.method=='POST':        
         message = request.get_json().get('events')[0] #存對方送進來的資料
-        print(message)
         replyToken=message.get('replyToken') #存token
         text=message.get('message').get('text') #存text
         sticker=message.get('message').get('stickerId')
         packageID=message.get('message').get('packageId')
-        print('replay token=',replyToken)
-        print('text=',text)
         a=news()
-        if text in a.keys():
-            c=[]
-            for i in a[text]:
-                c.append(i)
-            print(c)
-            text=c
+        newstitle=''
+        if text in a['headNews'][0].keys():
+            for i in a['headNews'][0][text]['title']:
+                newstitle=newstitle+i+'\n'
         # for i in a.keys():
         #     print(i)
         #     for j in a[i]:
@@ -48,16 +43,19 @@ def hello_world():
                 ]
             }
         else:
-            for i in range (len(text)):
-                data={
-                    "replyToken":replyToken,
-                    "messages":[
-                        {
-                            "type":"text",
-                            "text":text[i]
-                        },
-                    ]
-                }
+            data={
+                "replyToken":replyToken,
+                "messages":[
+                    {
+                        "type":"text",
+                        "text":newstitle
+                    },
+                    # {
+                    #     "type":"text",
+                    #     "text":link[0]
+                    # },
+                ]
+            }
         r=requests.post(url,headers=headers,data=json.dumps(data))
         #####################################################################
         ############################reply user###############################

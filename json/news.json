@@ -1,0 +1,290 @@
+{
+    "headNews": [
+        {
+            "新頭殼": {
+                "title": [
+                    "梵高轉中颱！降雨熱區出爐彭啟明：這2天水氣最多| 生活",
+                    "「糾眾」抗議高雄輕軌國民黨來了6個人| 政治",
+                    "烏鴉嘴！它問如果拜登就職前「掛了」怎辦？慘遭各方圍剿| 國際",
+                    "誰是接班人？柯文哲給黃珊珊「意志力」5分卻給陳時中、蔣萬安問號| 政治",
+                    "宮崎駿不在乎《鬼滅》票房直喊：我只是個撿垃圾的老頭| 娛樂",
+                    "周玉蔻堅稱美大選作弊蔡詩萍斥：別把對川普的感情投射在這個地方| 政治"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiLmh0dHBzOi8vbmV3dGFsay50dy9uZXdzL3ZpZXcvMjAyMC0xMS0xMS80OTI0OTTSAQA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CCAiC0NlZTVXOUc5TFJBmAEB?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMi1QFodHRwczovL3R3Lm5ld3MueWFob28uY29tLyVFNiU4QiU5QyVFNyU5OSVCQiVFNSU4QiU5RCVFOSU4MSVCOC0lRTklQTAlOTAlRTUlOTElOEElRTclQkUlOEUlRTUlOUMlOEIlRTUlQjAlODclRTUlQjAlOEQlRTQlQjglQUQlRTUlOUMlOEIlRTYlOEUlQTElRTUlOEYlOTYlRTYlOUIlQjQlRTUlQjAlOTYlRTklOEElQjMlRTclQUQlOTYlRTclOTUlQTUtMTMzNTAxNDAyLmh0bWzSAd0BaHR0cHM6Ly90dy5uZXdzLnlhaG9vLmNvbS9hbXBodG1sLyVFNiU4QiU5QyVFNyU5OSVCQiVFNSU4QiU5RCVFOSU4MSVCOC0lRTklQTAlOTAlRTUlOTElOEElRTclQkUlOEUlRTUlOUMlOEIlRTUlQjAlODclRTUlQjAlOEQlRTQlQjglQUQlRTUlOUMlOEIlRTYlOEUlQTElRTUlOEYlOTYlRTYlOUIlQjQlRTUlQjAlOTYlRTklOEElQjMlRTclQUQlOTYlRTclOTUlQTUtMTMzNTAxNDAyLmh0bWw?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiNmh0dHBzOi8vbmV3cy5sdG4uY29tLnR3L25ld3MvbGlmZS9icmVha2luZ25ld3MvMzM0NzI5ONIBOmh0dHBzOi8vbmV3cy5sdG4uY29tLnR3L2FtcC9uZXdzL2xpZmUvYnJlYWtpbmduZXdzLzMzNDcyOTg?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiKWh0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzEyMTc3Ny81MDA1NDg10gEA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CAIiEKsnyA8bqJQQnxri3GIjmt8qFwgEKg4IACoGCAowr7I3MKfqBzCGt-MG?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "中時新聞網 Chinatimes.com": {
+                "title": [
+                    "美民調網顯示拜登沒贏 蓬佩奧稱政權會平順移交第2任川普政府",
+                    "川普逆襲來了！美司法部長要全國檢察調查選舉舞弊",
+                    "無賴毒梟1／雲林毒皇耍狠黑吃黑還性虐女臥底 怕坐牢秒變俗辣裝智障"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiJ2h0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzcyNjYvNTAwNjA2M9IBK2h0dHBzOi8vdWRuLmNvbS9uZXdzL2FtcC9zdG9yeS83MjY2LzUwMDYwNjM?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiN2h0dHBzOi8vbmV3cy5sdG4uY29tLnR3L25ld3Mvd29ybGQvYnJlYWtpbmduZXdzLzMzNDgzNjbSATtodHRwczovL25ld3MubHRuLmNvbS50dy9hbXAvbmV3cy93b3JsZC9icmVha2luZ25ld3MvMzM0ODM2Ng?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiQ2h0dHBzOi8vdHcuYXBwbGVkYWlseS5jb20vbGlmZS8yMDIwMTExMC9NWUlFRkZQVldOSFZGUERUU1FWVjJaNEpUQS_SAQA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "台灣蘋果日報": {
+                "title": [
+                    "中壢24歲短褲妹勸不聽! 社會局幫求職警方:再乞討就開罰",
+                    "不斷更新| 民調:8成認為拜登是贏家川普陣營再提法律訴訟",
+                    "原音重現| 屏縣處長頭痛猝死蔣月惠竟扯鬼月逼遷公媽害的",
+                    "momo購物祭書籍66折流血價43家獨立書店心寒｢歇業｣抗議",
+                    "獨家直擊| 韓國瑜神祕市長室曝光擁指紋電梯!木門後藏雙人床套房",
+                    "中職| 5招逆勢奪天下獅王打造台版魔球",
+                    "獨家| 馬英九就職前神祕商人團密訪中國蘇起：馬另有管道"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiNmh0dHBzOi8vbmV3cy5sdG4uY29tLnR3L25ld3MvbGlmZS9icmVha2luZ25ld3MvMzM0ODM0NtIBOmh0dHBzOi8vbmV3cy5sdG4uY29tLnR3L2FtcC9uZXdzL2xpZmUvYnJlYWtpbmduZXdzLzMzNDgzNDY?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiRGh0dHBzOi8vdHcuYXBwbGVkYWlseS5jb20vbG9jYWwvMjAyMDExMTEvVE9SSlpaNElRVkNKTEVJWFRPRVBKR1hEU1kv0gEA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiMGh0dHBzOi8vd3d3LmJiYy5jb20vemhvbmd3ZW4vdHJhZC93b3JsZC01NDg4ODUwNdIBNGh0dHBzOi8vd3d3LmJiYy5jb20vemhvbmd3ZW4vdHJhZC93b3JsZC01NDg4ODUwNS5hbXA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiJ2h0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzcyMzgvNTAwNDcwMNIBK2h0dHBzOi8vdWRuLmNvbS9uZXdzL2FtcC9zdG9yeS83MjM4LzUwMDQ3MDA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CAIiEKybIP8QRG9xm-zJpGTD8IQqMwgEKioIACIQKjSbCxZ138pETYj7wUdSVioUCAoiECo0mwsWdd_KRE2I-8FHUlYw0sXIBg?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CCAiC19Tbm1sZ19waE1RmAEB?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiLmh0dHBzOi8vbmV3dGFsay50dy9uZXdzL3ZpZXcvMjAyMC0xMS0xMS80OTI0OTPSAQA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "自由時報電子報": {
+                "title": [
+                    "國旅孝親專案限定5天 北北基桃竹旅宿每房補助1500元",
+                    "武漢肺炎》美國單日新增破20萬例 全球逾5137萬例確診",
+                    "雲林縣環保局長遭張麗善拔官 綠議員：太粗糙",
+                    "拜登3箭瞄準中國 「聯台制中」是選項",
+                    "扯！光電廠長20年結5次婚 追到同事後還獵女結2次",
+                    "輝瑞武肺疫苗受試者透露：副作用如嚴重宿醉",
+                    "清晨最低溫苗栗14.5度 桃園以北、東北部易有短暫雨",
+                    "與習近平同場會議 莫迪當面嗆：應尊重彼此主權領土完整",
+                    "NBA》昔為湖人婉拒長約 KCP今要球隊端出肥約留他",
+                    "陽痿年輕化 40歲以下5年增3倍",
+                    "雙11搶好貨！「主動降噪真無線」「運動藍牙」耳機殺到最低價- 自由娛樂"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiQ2h0dHBzOi8vdHcuYXBwbGVkYWlseS5jb20vbGlmZS8yMDIwMTExMS9EUVJLT0tZVkFSRDNOQlRHVldHUExIUFoyNC_SAQA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMilgJodHRwczovL3R3Lm5ld3MueWFob28uY29tLyVFNSVCNyU5RCVFNiU5OSVBRSVFNiU5QiU5RCVFNSU4RiU5NiVFNSVCRSU5NyVFOSU4NyU4RCVFNSVBNCVBNyVFOSU4MCVCMiVFNSVCMSU5NSVFNiU5QyU4MyVFOCVCNCU4RiVFOSVCRSU5MCVFNyU5QSVBRSVFNiVBRCU5MCVFNiU5NCVCRiVFNiVBQyU4QSVFNiU5QyU4MyVFOSU4MSU4RSVFNSVCQSVBNiVFNSU4OCVCMCVFNyVBQyVBQy0yLSVFNCVCQiVCQiVFNSVCNyU5RCVFNiU5OSVBRSVFNiU5NCVCRiVFNSVCQSU5Qy0yMjQ3NDA2NjcuaHRtbNIBngJodHRwczovL3R3Lm5ld3MueWFob28uY29tL2FtcGh0bWwvJUU1JUI3JTlEJUU2JTk5JUFFJUU2JTlCJTlEJUU1JThGJTk2JUU1JUJFJTk3JUU5JTg3JThEJUU1JUE0JUE3JUU5JTgwJUIyJUU1JUIxJTk1JUU2JTlDJTgzJUU4JUI0JThGJUU5JUJFJTkwJUU3JTlBJUFFJUU2JUFEJTkwJUU2JTk0JUJGJUU2JUFDJThBJUU2JTlDJTgzJUU5JTgxJThFJUU1JUJBJUE2JUU1JTg4JUIwJUU3JUFDJUFDLTItJUU0JUJCJUJCJUU1JUI3JTlEJUU2JTk5JUFFJUU2JTk0JUJGJUU1JUJBJTlDLTIyNDc0MDY2Ny5odG1s?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiJ2h0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzcyMzgvNTAwNDYyM9IBK2h0dHBzOi8vdWRuLmNvbS9uZXdzL2FtcC9zdG9yeS83MjM4LzUwMDQ2MjM?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CCAiC004RGN4RlV3RHBrmAEB?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiN2h0dHBzOi8vd3d3LmNuYS5jb20udHcvbmV3cy9maXJzdG5ld3MvMjAyMDExMTEwMDA1LmFzcHjSATtodHRwczovL3d3dy5jbmEuY29tLnR3L2FtcC9uZXdzL2ZpcnN0bmV3cy8yMDIwMTExMTAwMDUuYXNweA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiKWh0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzEyMDk0MC81MDAzNjk10gEtaHR0cHM6Ly91ZG4uY29tL25ld3MvYW1wL3N0b3J5LzEyMDk0MC81MDAzNjk1?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiTGh0dHBzOi8vdHcuYXBwbGVkYWlseS5jb20vaW50ZXJuYXRpb25hbC8yMDIwMTExMS9CUkVRQzZGUkhSRVBURUFTWFc2VFBSM0pYTS_SAQA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMi3wFodHRwczovL3R3Lm5ld3MueWFob28uY29tLyVFNSU5NiVBQyVFNiVCMiVCQiVFNCVCQSU5RSVFNSVCNyU5RSVFNSU4RiU4MyVFOCVBRCVCMCVFNSU5MyVBMSVFOSU5QiVBMyVFNyU5NCVBMi0lRTclQjQlODUlRTglOTclOEQlRTYlOEIlODklRTklOEIlQjgtJUU2JUIxJUJBJUU1JUFFJTlBJUU2JThCJTlDJUU3JTk5JUJCJUU1JTlGJUI3JUU2JTk0JUJGJUU4JUI3JUFGLTExMjc1ODMwNS5odG1s0gHnAWh0dHBzOi8vdHcubmV3cy55YWhvby5jb20vYW1waHRtbC8lRTUlOTYlQUMlRTYlQjIlQkIlRTQlQkElOUUlRTUlQjclOUUlRTUlOEYlODMlRTglQUQlQjAlRTUlOTMlQTElRTklOUIlQTMlRTclOTQlQTItJUU3JUI0JTg1JUU4JTk3JThEJUU2JThCJTg5JUU5JThCJUI4LSVFNiVCMSVCQSVFNSVBRSU5QSVFNiU4QiU5QyVFNyU5OSVCQiVFNSU5RiVCNyVFNiU5NCVCRiVFOCVCNyVBRi0xMTI3NTgzMDUuaHRtbA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiLGh0dHBzOi8vd3d3LnNldG4uY29tL05ld3MuYXNweD9OZXdzSUQ9ODQ1NjAz0gExaHR0cHM6Ly93d3cuc2V0bi5jb20vbS9hbXBuZXdzLmFzcHg_TmV3c0lEPTg0NTYwMw?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiKWh0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzEyMDk0MC81MDA1Njky0gEtaHR0cHM6Ly91ZG4uY29tL25ld3MvYW1wL3N0b3J5LzEyMDk0MC81MDA1Njky?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiNmh0dHBzOi8vbmV3cy5sdG4uY29tLnR3L25ld3MvbGlmZS9icmVha2luZ25ld3MvMzM0NzMzMNIBOmh0dHBzOi8vbmV3cy5sdG4uY29tLnR3L2FtcC9uZXdzL2xpZmUvYnJlYWtpbmduZXdzLzMzNDczMzA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "UDN 聯合新聞網": {
+                "title": [
+                    "川普至今仍拒絕承認失敗 拜登：坦白講很令人尷尬",
+                    "國旅孝親專案草案曝光 限定55歲以上、最高補助4500元",
+                    "少女被偷抄報案電話約出性侵尋短身亡 消防員獲判無罪",
+                    "女警車禍身亡 同事臉書哀悼「萬分惋惜開朗可愛的她 」",
+                    "挺中天？柯文哲嗆蔡政府：三民自跟中天一樣標準就好",
+                    "科技大廠工程師6萬薪月加班100小時 過勞心肌梗塞猝死",
+                    "中職／7年6度爭冠 兄弟建軍方向還是值得肯定"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CAIiEDINOekrB2AzB_e-c5vsVMUqGQgEKhAIACoHCAowk7j0CjCY4qIDMKXQvgY?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiJ2h0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzczMjAvNTAwNjEwMNIBK2h0dHBzOi8vdWRuLmNvbS9uZXdzL2FtcC9zdG9yeS83MzIwLzUwMDYxMDA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiN2h0dHBzOi8vd3d3LmNuYS5jb20udHcvbmV3cy9maXJzdG5ld3MvMjAyMDExMTEwMTE2LmFzcHjSATtodHRwczovL3d3dy5jbmEuY29tLnR3L2FtcC9uZXdzL2ZpcnN0bmV3cy8yMDIwMTExMTAxMTYuYXNweA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CCAiC25nd090RE05ZEJVmAEB?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiN2h0dHBzOi8vd3d3LmNuYS5jb20udHcvbmV3cy9maXJzdG5ld3MvMjAyMDExMTAwMzQ1LmFzcHjSATtodHRwczovL3d3dy5jbmEuY29tLnR3L2FtcC9uZXdzL2ZpcnN0bmV3cy8yMDIwMTExMDAzNDUuYXNweA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiN2h0dHBzOi8vd3d3LmNuYS5jb20udHcvbmV3cy9maXJzdG5ld3MvMjAyMDExMTEwMDIwLmFzcHjSATtodHRwczovL3d3dy5jbmEuY29tLnR3L2FtcC9uZXdzL2ZpcnN0bmV3cy8yMDIwMTExMTAwMjAuYXNweA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiLmh0dHBzOi8vbmV3dGFsay50dy9uZXdzL3ZpZXcvMjAyMC0xMS0xMS80OTI1NzPSAQA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "udn OOPS! 新鮮事": {
+                "title": [
+                    "經濟泡泡來了！ 王美花證實首案外資電子業大廠將來台"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CAIiEAZRN2_CWu8qtkEqhVm5PikqGQgEKhAIACoHCAowk7j0CjCY4qIDMKXQvgY?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "TVBS NEWS": {
+                "title": [
+                    "川普不承認敗選拜登:不影響過渡進行",
+                    "衰！撞千萬法拉利騎士外套反穿釀禍恐賠90萬",
+                    "娃娃車遭闖紅燈休旅車撞翻幼童老師受傷",
+                    "【少康開講】美總務署將\"確認\"新任美國總統最後期限12/14撥雲見日?"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CCAiC3B6NXlRRXFaZXVRmAEB?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiQ2h0dHBzOi8vd3d3LnBlb3BsZW5ld3MudHcvbmV3cy8zODMzYTgzZi02Y2MzLTRlYjktOThhYS1kNGI4ZDViOWFmOTTSAQA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiMmh0dHBzOi8vZWMubHRuLmNvbS50dy9hcnRpY2xlL2JyZWFraW5nbmV3cy8zMzQ3OTg00gE2aHR0cHM6Ly9lYy5sdG4uY29tLnR3L2FtcC9hcnRpY2xlL2JyZWFraW5nbmV3cy8zMzQ3OTg0?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiLmh0dHBzOi8vbmV3dGFsay50dy9uZXdzL3ZpZXcvMjAyMC0xMS0xMC80OTIzMDXSAQA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "中央社即時新聞": {
+                "title": [
+                    "WHA第2天美日11國挺台聲浪大 主席竟2度喊卡",
+                    "中國武漢肺炎疫苗出現不良事件 巴西試驗喊停",
+                    "勞保分級表新版本110年上路 影響288萬人"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiLmh0dHBzOi8vbmV3dGFsay50dy9uZXdzL3ZpZXcvMjAyMC0xMS0xMS80OTI0NDfSAQA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiJ2h0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzczMjcvNTAwMjk1MdIBK2h0dHBzOi8vdWRuLmNvbS9uZXdzL2FtcC9zdG9yeS83MzI3LzUwMDI5NTE?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiJ2h0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzcyNjYvNTAwNjIxMdIBAA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "三立新聞網": {
+                "title": [
+                    "等了11年！台中捷運綠線11/16試營 免費搭乘一個月",
+                    "愛女酒駕卻罵哭警！台中義警為行政院秘書長姊夫 請辭獲准",
+                    "川普為何突撤換國防部長？作家驚曝可怕原因"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiLGh0dHBzOi8vd3d3LnNldG4uY29tL05ld3MuYXNweD9OZXdzSUQ9ODQ2MDQ20gExaHR0cHM6Ly93d3cuc2V0bi5jb20vbS9hbXBuZXdzLmFzcHg_TmV3c0lEPTg0NjA0Ng?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiN2h0dHBzOi8vd3d3LmJiYy5jb20vemhvbmd3ZW4vdHJhZC9jaGluZXNlLW5ld3MtNTQ4OTY5MjPSATtodHRwczovL3d3dy5iYmMuY29tL3pob25nd2VuL3RyYWQvY2hpbmVzZS1uZXdzLTU0ODk2OTIzLmFtcA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CCAiC2VnZzRIX19McnhnmAEB?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "ETtoday 新聞雲": {
+                "title": [
+                    "快訊／新冠肺炎再添4例！指揮中心1400記者會陳時中親說明",
+                    "影／豬隻四肢顫抖、情緒激動 吃瘦肉精副作用20秒影片曝光",
+                    "嘉義31歲女警「4秒遭2車輾斃」 畫面曝光！5大1小目睹嚇壞摀眼"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CAIiEESAU79l2IT4Yxu5ExNEGIcqGQgEKhAIACoHCAowk7j0CjCY4qIDMKXQvgY?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CAIiEExSrl7WQ9orR6PvriJ1Hz8qGQgEKhAIACoHCAowk7j0CjCY4qIDMKXQvgY?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CCAiC0tKMEV5WDNOLUU0mAEB?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "BBC中文網": {
+                "title": [
+                    "新冠疫情：輝瑞版疫苗問世在望 六大問題有答案"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiLmh0dHBzOi8vbmV3dGFsay50dy9uZXdzL3ZpZXcvMjAyMC0xMS0xMC80OTIwOTjSAQA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "東森新聞": {
+                "title": [
+                    "拜登未當選？美民調網改變選舉結果 賓州20票消失了",
+                    "雲林毒皇下令多人性侵女臥底 落網後竟成了傻瓜"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiNmh0dHBzOi8vbmV3cy5sdG4uY29tLnR3L25ld3MvbGlmZS9icmVha2luZ25ld3MvMzM0ODI5NtIBOmh0dHBzOi8vbmV3cy5sdG4uY29tLnR3L2FtcC9uZXdzL2xpZmUvYnJlYWtpbmduZXdzLzMzNDgyOTY?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiJ2h0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzczMjUvNTAwMjg5ONIBK2h0dHBzOi8vdWRuLmNvbS9uZXdzL2FtcC9zdG9yeS83MzI1LzUwMDI4OTg?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "NOWnews 今日新聞": {
+                "title": [
+                    "他把3800萬全存銀行！2年後一查「餘額是0」 真相扯翻天"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiKWh0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzEyMTY4Ny81MDA1NzE20gEtaHR0cHM6Ly91ZG4uY29tL25ld3MvYW1wL3N0b3J5LzEyMTY4Ny81MDA1NzE2?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "鏡週刊": {
+                "title": [
+                    "【變身真女人1】赴泰國變性竟一度被關遭遣返 小A辣花兩個月圓夢",
+                    "【柯團隊爆內戰】不爽黃珊珊搶盡鋒頭 揭柯團隊3系統互打內幕",
+                    "【慷仁認愛小姐姐1】吳慷仁邵雨薇深夜煲愛16小時 保時捷神同步",
+                    "2020平均年薪64.1萬創新高 4大產業它「薪情最差」"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CAIiEKS4k-thW4Ic68bmVuvDKlYqGQgEKhAIACoHCAowzb-BCzDonP0CMN6C7wU?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CAIiEHZ6CcrCqWCzc-hjIu8xcewqFwgEKg4IACoGCAowr7I3MKfqBzCCt-MG?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiR2h0dHBzOi8vdHcuYXBwbGVkYWlseS5jb20vaGVhZGxpbmUvMjAyMDExMTEvV1NXVEJXQjNLTkhXVEtLRFZJS1FCWDIzSEkv0gEA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiLmh0dHBzOi8vbmV3dGFsay50dy9uZXdzL3ZpZXcvMjAyMC0xMS0xMS80OTI1MDnSAQA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "大紀元": {
+                "title": [
+                    "沈舟：川普忽更換國防部長 嚇到中共高層？",
+                    "【新聞看點】美大選背後有鬼影 川普大規模提告",
+                    "北卡民主黨人承認敗選 共和黨贏參院關鍵一席"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiNmh0dHBzOi8vbmV3cy5sdG4uY29tLnR3L25ld3MvbGlmZS9icmVha2luZ25ld3MvMzM0ODQxMdIBOmh0dHBzOi8vbmV3cy5sdG4uY29tLnR3L2FtcC9uZXdzL2xpZmUvYnJlYWtpbmduZXdzLzMzNDg0MTE?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiN2h0dHBzOi8vbmV3cy5sdG4uY29tLnR3L25ld3Mvd29ybGQvYnJlYWtpbmduZXdzLzMzNDgyMTjSATtodHRwczovL25ld3MubHRuLmNvbS50dy9hbXAvbmV3cy93b3JsZC9icmVha2luZ25ld3MvMzM0ODIxOA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiKWh0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzEyMDk0NC81MDA1NDY50gEtaHR0cHM6Ly91ZG4uY29tL25ld3MvYW1wL3N0b3J5LzEyMDk0NC81MDA1NDY5?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "udn 轉角國際": {
+                "title": [
+                    "高加索「無人機大戰」：無情擊潰亞美尼亞的新．機戰未來？"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiOmh0dHBzOi8vbmV3cy5sdG4uY29tLnR3L25ld3MvcG9saXRpY3MvYnJlYWtpbmduZXdzLzMzNDgwNzPSAT5odHRwczovL25ld3MubHRuLmNvbS50dy9hbXAvbmV3cy9wb2xpdGljcy9icmVha2luZ25ld3MvMzM0ODA3Mw?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "CTWANT": {
+                "title": [
+                    "住公司隔壁！女孩每日狂奔「踩點上班」 為了拍她老闆還提前到公司"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiR2h0dHBzOi8vdHcuYXBwbGVkYWlseS5jb20vcG9saXRpY3MvMjAyMDExMTAvSTJRNDY1QU9QRkJRVklXVlZQN1RUWlNBWU0v0gEA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "三立新聞網 Setn.com": {
+                "title": [
+                    "稱要三軍戒備！柯文哲一語驚人：2隻大象做愛，草皮都倒楣",
+                    "張忠謀首次任APEC代表 小布希就認出他：我認識你"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiTGh0dHBzOi8vdHcuYXBwbGVkYWlseS5jb20vaW50ZXJuYXRpb25hbC8yMDIwMTExMC9WNVNYRlBCUFNCRERCRUdSNlY1NkhQSjdSNC_SAQA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CAIiEAq8p1MLDN5Bj2omaciCTBEqFwgEKg4IACoGCAowr7I3MKfqBzCGt-MG?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "Anue鉅亨": {
+                "title": [
+                    "一文統整蘋果One More Thing發表會：3款Mac、新作業系統Big Sur",
+                    "〈能源盤後〉疫苗持續激勵樂觀情緒 原油連2日大漲"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiQ2h0dHBzOi8vdHcuYXBwbGVkYWlseS5jb20vbGlmZS8yMDIwMTExMC9RTkVVNzJKQVBCRjRSRERGTFZXNUFHUTJBSS_SAQA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+                    "https://news.google.com/articles/CBMiMmh0dHBzOi8vd3d3LmJiYy5jb20vemhvbmd3ZW4vdHJhZC9zY2llbmNlLTU0ODc5MTYw0gE2aHR0cHM6Ly93d3cuYmJjLmNvbS96aG9uZ3dlbi90cmFkL3NjaWVuY2UtNTQ4NzkxNjAuYW1w?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "Engadget 中文版": {
+                "title": [
+                    "首款搭載ARM 架構處理器的13.3 吋MacBook Air 來了！"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiQ2h0dHBzOi8vdHcuYXBwbGVkYWlseS5jb20vbGlmZS8yMDIwMTExMS8zNkRMWUhISVhaQlZSSFVQSkUyWUdOVEVDQS_SAQA?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "Yahoo奇摩新聞": {
+                "title": [
+                    "謝忻野泡尬小豬！照片曝光「驚見殘忍對比」 size整整大一倍"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CCAiC3piYTZiNC1tSVEwmAEB?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "Yahoo奇摩理財": {
+                "title": [
+                    "【公告】國際中橡董事會通過109年第三季合併財務報告"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CCAiC3h0QVYxOXpPOXJVmAEB?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "科技新報 TechNews": {
+                "title": [
+                    "iPhone 12 Pro 續缺貨，電信商：建議升級Max | TechNews 科技新報"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CAIiEAsqh4p1vB43DZVZqokeON0qMwgEKioIACIQ2ZPcd1Om0N10mnos0HY3_CoUCAoiENmT3HdTptDddJp6LNB2N_ww-e_HBg?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            },
+            "新唐人電視台": {
+                "title": [
+                    "【直播回放11/10】美國外交政策智庫論壇:中共對美國及世界的犯罪（中文同聲翻譯） | 新唐人電視台"
+                ],
+                "link": [
+                    "https://news.google.com/articles/CBMiKWh0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzEyMDk0NC81MDAyNzY10gEtaHR0cHM6Ly91ZG4uY29tL25ld3MvYW1wL3N0b3J5LzEyMDk0NC81MDAyNzY1?hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+                ]
+            }
+        }
+    ]
+}
