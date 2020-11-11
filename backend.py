@@ -19,7 +19,8 @@ def hello_world():
         print('text=',text)
         a=news()
         if text in a.keys():
-            for i in  a[text]:
+            text="'"+text+"'"
+            for i in a[text]:
                 c=c.append(i)
                 text=c
         # for i in a.keys():
