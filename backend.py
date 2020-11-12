@@ -2,7 +2,7 @@ from flask import Flask, request, render_template
 from Module.a11_3_news import news
 import requests
 from Module.replyMessage import ReplayMessage as rmsg
-
+from Module.PSS import Pss
 app = Flask(__name__)  # 這段是一定要打的
 
 
@@ -27,11 +27,12 @@ def hello_world():
                 newstitle = newstitle+a['headNews'][0][text]['title'][i]+'\n' + \
                     a['headNews'][0][text]['link'][i] + \
                     '\n'+'------------------------'+'\n'
-            replyMSG = newstitle
-        # 猜拳
-        
-
-        rmsg(replyToken, replyMSG, text, sticker, packageID, media)
+            replyMSG = newstitle       
+        fist = ['剪刀', '石頭', '布']
+        if text in fist:
+            Pss(text,fist)# 猜拳
+        else:
+            rmsg(replyToken, replyMSG, text, sticker, packageID, media)
         return "POST"
     else:
         return "GET"
