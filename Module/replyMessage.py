@@ -30,87 +30,93 @@ def ReplayMessage(replyToken, message, text, media):
                 },
                 {
                     "type": "text",
-                    "text": "輸入想找的媒體"
+                    "t   ext": "輸入想找的媒體"
                 },
             ]
         }
     elif text == '卡片':
         data = {
-            "type": "flex",
-            "altText": "this is a flex message",
-            "contents": {
-                "type": "bubble",
-                "hero": {
-                    "type": "image",
-                    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png",
-                    "size": "full",
-                    "aspectRatio": "20:13",
-                    "aspectMode": "cover"
-                },
-                "body": {
-                    "type": "box",
-                    "layout": "vertical",
-                    "spacing": "sm",
-                    "contents": [
-                        {
-                            "type": "text",
-                            "text": "Arm Chair, White",
-                            "weight": "bold",
-                            "size": "xl",
-                            "wrap": True,
-                            "contents": []
+            "replyToken": replyToken,
+            "messages": [
+                {
+                    "type": "flex",
+                    "altText": "this is a flex message",
+                    "contents": {
+                        "type": "bubble",
+                        "hero": {
+                            "type": "image",
+                            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png",
+                            "size": "full",
+                            "aspectRatio": "20:13",
+                            "aspectMode": "cover"
                         },
-                        {
+                        "body": {
                             "type": "box",
-                            "layout": "baseline",
+                            "layout": "vertical",
+                            "spacing": "sm",
                             "contents": [
                                 {
                                     "type": "text",
-                                    "text": "$49",
+                                    "text": "Arm Chair, White",
                                     "weight": "bold",
                                     "size": "xl",
-                                    "flex": 0,
                                     "wrap": True,
                                     "contents": []
                                 },
                                 {
-                                    "type": "text",
-                                    "text": ".99",
-                                    "weight": "bold",
-                                    "size": "sm",
-                                    "flex": 0,
-                                    "wrap": True,
-                                    "contents": []
+                                    "type": "box",
+                                    "layout": "baseline",
+                                    "contents": [
+                                        {
+                                            "type": "text",
+                                            "text": "$49",
+                                            "weight": "bold",
+                                            "size": "xl",
+                                            "flex": 0,
+                                            "wrap": True,
+                                            "contents": []
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ".99",
+                                            "weight": "bold",
+                                            "size": "sm",
+                                            "flex": 0,
+                                            "wrap": True,
+                                            "contents": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "footer": {
+                            "type": "box",
+                            "layout": "vertical",
+                            "spacing": "sm",
+                            "contents": [
+                                {
+                                    "type": "button",
+                                    "action": {
+                                        "type": "uri",
+                                        "label": "Add to Cart",
+                                        "uri": "https://linecorp.com"
+                                    },
+                                    "style": "primary"
+                                },
+                                {
+                                    "type": "button",
+                                    "action": {
+                                        "type": "uri",
+                                        "label": "Add to wishlist",
+                                        "uri": "https://linecorp.com"
+                                    }
                                 }
                             ]
                         }
-                    ]
-                },
-                "footer": {
-                    "type": "box",
-                    "layout": "vertical",
-                    "spacing": "sm",
-                    "contents": [
-                        {
-                            "type": "button",
-                            "action": {
-                                "type": "uri",
-                                "label": "Add to Cart",
-                                "uri": "https://linecorp.com"
-                            },
-                            "style": "primary"
-                        },
-                        {
-                            "type": "button",
-                            "action": {
-                                "type": "uri",
-                                "label": "Add to wishlist",
-                                "uri": "https://linecorp.com"
-                            }
-                        }
-                    ]
+                    }
+
                 }
-            }
+            ]
         }
     else:
         data = {
