@@ -1,86 +1,48 @@
-from flask import Flask,request,render_template
+from flask import Flask, request, render_template
 from a11_3_news import news
 import requests
 import json
 import random
 from Module.replyMessage import ReplayMessage as rmsg
 
-app = Flask(__name__) #這段是一定要打的
+app = Flask(__name__)  # 這段是一定要打的
 
-@app.route('/',methods=['POST','GET']) #這段是路徑
+
+@app.route('/', methods=['POST', 'GET'])  # 這段是路徑
 def hello_world():
-    if request.method=='POST':        
-        message = request.get_json().get('events')[0] #存對方送進來的資料
-        replyToken=message.get('replyToken') #存token
-        text=message.get('message').get('text') #存text
-        sticker=message.get('message').get('stickerId')
-        packageID=message.get('message').get('packageId')
-        a=news()
-        replyMSG=text
-        newstitle=''
-        media=''
-        ################################################################媒體
+    if request.method == 'POST':
+        message = request.get_json().get('events')[0]  # 存對方送進來的資料
+        replyToken = message.get('replyToken')  # 存token
+        text = message.get('message').get('text')  # 存text
+        sticker = message.get('message').get('stickerId')
+        packageID = message.get('message').get('packageId')
+        a = news()
+        replyMSG = text
+        newstitle = ''
+        media = ''
+        # 媒體
         for i in a['headNews'][0]:
-            media=media+i+'\n'
-        ################################################################標題
+            media = media+i+'\n'
+        # 標題
         if text in a['headNews'][0].keys():
-            for i in range(len(a['headNews'][0][text]['title'])) :
-                newstitle=newstitle+a['headNews'][0][text]['title'][i]+'\n'+a['headNews'][0][text]['link'][i]+'\n'+'------------------------'+'\n'
-            replyMSG=newstitle
-        ################################################################猜拳
-        fist = ['剪刀','石頭','布']
+            for i in range(len(a['headNews'][0][text]['title'])):
+                newstitle = newstitle+a['headNews'][0][text]['title'][i]+'\n' + \
+                    a['headNews'][0][text]['link'][i] + \
+                    '\n'+'------------------------'+'\n'
+            replyMSG = newstitle
+        # 猜拳
+        fist = ['剪刀', '石頭', '布']
         if text in fist:
-                ai = random.randint(0,2)
-                player = fist.index(text)
-                if ai == player :
-                    replyMSG="電腦出"+fist[ai]+"，平手"
-                elif (ai== 0 and player==1) or (ai == 1 and player == 2) or (ai == 2 and player == 0):
-                    replyMSG="電腦出"+fist[ai]+"，你獲勝"
-                else: 
-                    replyMSG="電腦出"+fist[ai]+"，你輸了"
-        #####################################################################
-        ############################reply user###############################
-        url='https://api.line.me/v2/bot/message/reply'
-        accessToken='zTG6hdHrhApoeawkkdWpvspMdPq2Sc7SSztnQvIZmRiEWfamI8hFdMoRrpSoChN/ME27bdbC2nsCtchvVVfaY+CS0Tj8RQDAcqlTIq7ujZ6uAnn7UnmqxT/0X5fK4vq0UQrg9tEsTPJNlAT+JvOy4QdB04t89/1O/w1cDnyilFU='
-        headers={
-            'Content-Type':'application/json',
-            'Authorization':'Bearer '+accessToken #Bearer後面要空一格
-        }
-        if sticker:
-            data={
-                "replyToken":replyToken,
-                "messages":[
-                    {
-                        "type": "sticker",
-                        "packageId": packageID,
-                        "stickerId": sticker
-                    },
-                    {
-                        "type": "image",
-                        "originalContentUrl": "https://example.com/original.jpg",
-                        "previewImageUrl": "https://example.com/preview.jpg"
-                    }
-                ]
-            }
-        elif text=='新聞':
-            data={
-                "replyToken":replyToken,
-                "messages":[
-                    {
-                        "type":"text",
-                        "text":media
-                    },
-                    {
-                        "type":"text",
-                        "text":"輸入想找的媒體"
-                    },
-                ]
-            }    
-        
-        r=requests.post(url,headers=headers,data=json.dumps(data))
-        rmsg(replyToken,replyMSG)   
-        #####################################################################
-        ############################reply user###############################
+            ai = random.randint(0, 2)
+            player = fist.index(text)
+            if ai == player:
+                replyMSG = "電腦出"+fist[ai]+"，平手"
+            elif (ai == 0 and player == 1) or (ai == 1 and player == 2) or (ai == 2 and player == 0):
+                replyMSG = "電腦出"+fist[ai]+"，你獲勝"
+            else:
+                replyMSG = "電腦出"+fist[ai]+"，你輸了"
+
+        rmsg(replyToken, replyMSG, text, sticker, packageID, media)
         return "POST"
     else:
         return "GET"
@@ -111,5 +73,6 @@ def hello_world():
 #     news()
 #     return news()
 
+
 if __name__ == '__main__':
-    app.run(host='127.0.0.1',port=5000)
+    app.run(host='127.0.0.1', port=5000)
