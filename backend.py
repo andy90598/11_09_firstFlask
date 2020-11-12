@@ -30,7 +30,7 @@ def hello_world():
             replyMSG = newstitle       
         fist = ['剪刀', '石頭', '布']
         if text in fist:
-            Pss(text,fist)# 猜拳
+            replyMSG=Pss(text,fist)# 猜拳           
         rmsg(replyToken, replyMSG, text, sticker, packageID, media)
         return "POST"
     else:
