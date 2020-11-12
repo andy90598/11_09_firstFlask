@@ -1,4 +1,4 @@
-from a11_3_news import news
+from a11-3-news import news
 def NewsTitle(text):
     newstitle = ''
     media = ''
