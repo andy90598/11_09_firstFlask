@@ -2,6 +2,7 @@ def NewsTopic(text,a):
     newstitle = ''
     media = ''
     # 媒體
+
     for i in a['headNews'][0]:
         media = media+i+'\n'
     # 標題
@@ -10,5 +11,7 @@ def NewsTopic(text,a):
             newstitle = newstitle+a['headNews'][0][text]['title'][i]+'\n' + \
                 a['headNews'][0][text]['link'][i] + \
                 '\n'+'------------------------'+'\n'
-        replyMSG = newstitle  
-    return media,replyMSG
+    if text=='新聞':
+        return media
+    else:
+        return newstitle

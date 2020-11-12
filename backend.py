@@ -16,14 +16,17 @@ def hello_world():
         sticker = message.get('message').get('stickerId')
         packageID = message.get('message').get('packageId')
         replyMSG = text
-        media=''
+        media = ''
 
         fist = ['剪刀', '石頭', '布']
         if text in fist:
             replyMSG = Pss(text, fist)  # 猜拳
         if text == '新聞':
             a = news()
-            media, replyMSG = NewsTopic(text, a)
+            media = NewsTopic(text, a)
+        elif text in media.split('\n'):
+            a = news()
+            replyMSG = NewsTopic(text, a)
         rmsg(replyToken, replyMSG, text, sticker, packageID, media)
         return "POST"
     else:
