@@ -17,6 +17,13 @@ def hello_world():
         packageID = message.get('message').get('packageId')
         replyMSG = text
         media = ''
+        list_media=[]
+        a = news()
+        for i in a['headNews'][0]:
+            media = media+i+'\n'
+        list_media=media.split('\n')
+        media=''
+        print(list_media)
 
         fist = ['剪刀', '石頭', '布']
         if text in fist:
@@ -24,7 +31,7 @@ def hello_world():
         if text == '新聞':
             a = news()
             media = NewsTopic(text, a)
-        elif text in media.split('\n'):
+        elif text in list_media:
             a = news()
             replyMSG = NewsTopic(text, a)
         rmsg(replyToken, replyMSG, text, sticker, packageID, media)
