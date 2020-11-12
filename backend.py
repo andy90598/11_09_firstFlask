@@ -76,8 +76,9 @@ def hello_world():
                     },
                 ]
             }    
-        rmsg(replyToken,replyMSG)   
+        
         r=requests.post(url,headers=headers,data=json.dumps(data))
+        rmsg(replyToken,replyMSG)   
         #####################################################################
         ############################reply user###############################
         return "POST"
