@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-from Module.a11_3_news import news
+from Module.NewsTitle import NewsTitle
 import requests
 from Module.replyMessage import ReplayMessage as rmsg
 from Module.PSS import Pss
@@ -13,24 +13,14 @@ def hello_world():
         replyToken = message.get('replyToken')  # 存token
         text = message.get('message').get('text')  # 存text
         sticker = message.get('message').get('stickerId')
-        packageID = message.get('message').get('packageId')
-        a = news()
-        replyMSG = text
-        newstitle = ''
-        media = ''
-        # 媒體
-        for i in a['headNews'][0]:
-            media = media+i+'\n'
-        # 標題
-        if text in a['headNews'][0].keys():
-            for i in range(len(a['headNews'][0][text]['title'])):
-                newstitle = newstitle+a['headNews'][0][text]['title'][i]+'\n' + \
-                    a['headNews'][0][text]['link'][i] + \
-                    '\n'+'------------------------'+'\n'
-            replyMSG = newstitle       
+        packageID = message.get('message').get('packageId')       
+        replyMSG = text 
+                  
         fist = ['剪刀', '石頭', '布']
         if text in fist:
-            replyMSG=Pss(text,fist)# 猜拳           
+            replyMSG=Pss(text,fist)# 猜拳    
+        if text =='新聞':
+            media,replyMSG=NewsTitle(text)      
         rmsg(replyToken, replyMSG, text, sticker, packageID, media)
         return "POST"
     else:

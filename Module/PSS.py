@@ -2,6 +2,7 @@ import random
 
 
 def Pss(text,fist):
+    # sticker = ['292','295','296']
     ai = random.randint(0, 2)
     player = fist.index(text)
     if ai == player:
