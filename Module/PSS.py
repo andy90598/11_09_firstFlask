@@ -11,4 +11,5 @@ def Pss(text,fist):
         replyMSG = '電腦出'+fist[ai]+'，你獲勝'
     else:
         replyMSG = '電腦出'+fist[ai]+'，你輸了'
-    return replyMSG
+    text=replyMSG
+    return text

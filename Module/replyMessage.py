@@ -1,20 +1,22 @@
 import requests
 import json
-def ReplayMessage(replyToken, replyMSG, text, sticker, packageID, media):
+
+
+def ReplayMessage(replyToken, message, text,media):
     url = 'https://api.line.me/v2/bot/message/reply'
     accessToken = 'zTG6hdHrhApoeawkkdWpvspMdPq2Sc7SSztnQvIZmRiEWfamI8hFdMoRrpSoChN/ME27bdbC2nsCtchvVVfaY+CS0Tj8RQDAcqlTIq7ujZ6uAnn7UnmqxT/0X5fK4vq0UQrg9tEsTPJNlAT+JvOy4QdB04t89/1O/w1cDnyilFU='
     headers = {
         'Content-Type': 'application/json',
         'Authorization': 'Bearer '+accessToken  # Bearer後面要空一格
     }
-    if sticker:
+    if message.get('message').get('stickerId'):
         data = {
             "replyToken": replyToken,
             "messages": [
                 {
                     "type": "sticker",
-                    "packageId": packageID,
-                    "stickerId": sticker
+                    "packageId": message.get('message').get('packageId'),
+                    "stickerId": message.get('message').get('stickerId')
                 },
             ]
         }
@@ -164,7 +166,7 @@ def ReplayMessage(replyToken, replyMSG, text, sticker, packageID, media):
             "messages": [
                 {
                     "type": "text",
-                    "text": replyMSG
+                    "text": text
                 },
             ]
         }

@@ -13,7 +13,7 @@ app = Flask(__name__)  # 這段是一定要打的
 
 
 def print_date_time():
-    r=requests.get('https://andy-flask.herokuapp.com/')
+    r = requests.get('https://andy-flask.herokuapp.com/')
     print(r.text)
 
 
@@ -32,9 +32,7 @@ def hello_world():
         message = request.get_json().get('events')[0]  # 存對方送進來的資料
         replyToken = message.get('replyToken')  # 存token
         text = message.get('message').get('text')  # 存text
-        sticker = message.get('message').get('stickerId')
-        packageID = message.get('message').get('packageId')
-        replyMSG = text
+
         media = ''
         list_media = []
         a = news()
@@ -46,13 +44,13 @@ def hello_world():
 
         fist = ['剪刀', '石頭', '布']
         if text in fist:
-            replyMSG = Pss(text, fist)  # 猜拳
+            text = Pss(text, fist)  # 猜拳
         if text == '新聞':
             a = news()
-            media = NewsTopic(text, a)
+            media = NewsTopic(text,a)
         elif text in list_media:
             a = news()
-            replyMSG = NewsTopic(text, a)
+            text = NewsTopic(text, a)
 
 
 ########################排程器########################
@@ -65,7 +63,7 @@ def hello_world():
         # atexit.register(lambda: scheduler.shutdown())
 ########################排程器########################
 
-        rmsg(replyToken, replyMSG, text, sticker, packageID, media)
+        rmsg(replyToken, message, text,media)
         return "POST"
     else:
         return "GET"
