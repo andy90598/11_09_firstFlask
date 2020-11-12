@@ -4,7 +4,17 @@ from Module.replyMessage import ReplayMessage as rmsg
 from Module.PSS import Pss
 from Module.a113news import news
 import requests
+import atexit
+
+from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.triggers.interval import IntervalTrigger
+
 app = Flask(__name__)  # 這段是一定要打的
+
+
+def print_date_time():
+    print ("AAA")
+
 
 
 @app.route('/', methods=['POST', 'GET'])  # 這段是路徑
@@ -17,12 +27,12 @@ def hello_world():
         packageID = message.get('message').get('packageId')
         replyMSG = text
         media = ''
-        list_media=[]
+        list_media = []
         a = news()
         for i in a['headNews'][0]:
             media = media+i+'\n'
-        list_media=media.split('\n')
-        media=''
+        list_media = media.split('\n')
+        media = ''
         print(list_media)
 
         fist = ['剪刀', '石頭', '布']
@@ -34,6 +44,22 @@ def hello_world():
         elif text in list_media:
             a = news()
             replyMSG = NewsTopic(text, a)
+        
+
+        
+        scheduler = BackgroundScheduler()
+        scheduler.start()
+        scheduler.add_job(
+            func=print_date_time,
+            trigger=IntervalTrigger(seconds=3),
+            replace_existing=True)
+        atexit.register(lambda: scheduler.shutdown())
+
+
+
+
+
+
         rmsg(replyToken, replyMSG, text, sticker, packageID, media)
         return "POST"
     else:
@@ -67,5 +93,5 @@ def hello_world():
 
 
 if __name__ == '__main__':
-    debug = True
-    app.run(host='127.0.0.1', port=5000)
+    
+    app.run(host='127.0.0.1', port=5000,debug = True)
