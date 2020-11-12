@@ -1,8 +1,6 @@
 from flask import Flask, request, render_template
-from a11_3_news import news
+from Module.a11_3_news import news
 import requests
-import json
-import random
 from Module.replyMessage import ReplayMessage as rmsg
 
 app = Flask(__name__)  # 這段是一定要打的
@@ -31,16 +29,7 @@ def hello_world():
                     '\n'+'------------------------'+'\n'
             replyMSG = newstitle
         # 猜拳
-        fist = ['剪刀', '石頭', '布']
-        if text in fist:
-            ai = random.randint(0, 2)
-            player = fist.index(text)
-            if ai == player:
-                replyMSG = "電腦出"+fist[ai]+"，平手"
-            elif (ai == 0 and player == 1) or (ai == 1 and player == 2) or (ai == 2 and player == 0):
-                replyMSG = "電腦出"+fist[ai]+"，你獲勝"
-            else:
-                replyMSG = "電腦出"+fist[ai]+"，你輸了"
+        
 
         rmsg(replyToken, replyMSG, text, sticker, packageID, media)
         return "POST"
