@@ -7,7 +7,7 @@ app = Flask(__name__)  # 這段是一定要打的
 
 
 @app.route('/', methods=['POST', 'GET'])  # 這段是路徑
-def hello_world():
+def hello_world():  
     if request.method == 'POST':
         message = request.get_json().get('events')[0]  # 存對方送進來的資料
         replyToken = message.get('replyToken')  # 存token
@@ -15,7 +15,7 @@ def hello_world():
         sticker = message.get('message').get('stickerId')
         packageID = message.get('message').get('packageId')       
         replyMSG = text 
-                  
+
         fist = ['剪刀', '石頭', '布']
         if text in fist:
             replyMSG=Pss(text,fist)# 猜拳    
@@ -54,4 +54,5 @@ def hello_world():
 
 
 if __name__ == '__main__':
+    debug=True
     app.run(host='127.0.0.1', port=5000)
