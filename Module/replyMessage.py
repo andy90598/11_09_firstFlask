@@ -41,6 +41,16 @@ def ReplayMessage(replyToken, replyMSG,text,sticker,packageID,media):
                 },
             ]
         }
+    else:
+        data = {
+            "replyToken": replyToken,
+            "messages": [
+                {
+                    "type": "text",
+                    "text": replyMSG
+                },
+            ]
+        }
     r = requests.post(url, headers=headers, data=json.dumps(data))
     return r
     #####################################################################
