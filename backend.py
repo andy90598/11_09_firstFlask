@@ -31,8 +31,7 @@ def hello_world():
         fist = ['剪刀', '石頭', '布']
         if text in fist:
             Pss(text,fist)# 猜拳
-        else:
-            rmsg(replyToken, replyMSG, text, sticker, packageID, media)
+        rmsg(replyToken, replyMSG, text, sticker, packageID, media)
         return "POST"
     else:
         return "GET"
