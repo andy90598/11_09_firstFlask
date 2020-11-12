@@ -1,5 +1,5 @@
 from a113news import news
-def NewsTitle(text):
+def NewsTopic(text):
     newstitle = ''
     media = ''
     a = news()
