@@ -35,7 +35,7 @@ def ReplayMessage(replyToken, message, text,media):
             ]
         }
     elif text == '卡片':
-        {
+        data={
             "type": "flex",
             "altText": "this is a flex message",
             "contents": {
