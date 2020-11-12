@@ -16,6 +16,7 @@ def hello_world():
         sticker = message.get('message').get('stickerId')
         packageID = message.get('message').get('packageId')
         replyMSG = text
+        media=''
 
         fist = ['剪刀', '石頭', '布']
         if text in fist:
