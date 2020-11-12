@@ -13,8 +13,17 @@ app = Flask(__name__)  # 這段是一定要打的
 
 
 def print_date_time():
-    print ("AAA")
+    r=requests.get('https://andy-flask.herokuapp.com/')
+    print(r.text)
 
+
+scheduler = BackgroundScheduler()
+scheduler.add_job(
+    func=print_date_time,
+    trigger=IntervalTrigger(minutes=20),
+)
+scheduler.start()
+# atexit.register(lambda: scheduler.shutdown())
 
 
 @app.route('/', methods=['POST', 'GET'])  # 這段是路徑
@@ -44,21 +53,17 @@ def hello_world():
         elif text in list_media:
             a = news()
             replyMSG = NewsTopic(text, a)
-        
-
-        
-        scheduler = BackgroundScheduler()
-        scheduler.start()
-        scheduler.add_job(
-            func=print_date_time,
-            trigger=IntervalTrigger(seconds=3),
-            replace_existing=True)
-        atexit.register(lambda: scheduler.shutdown())
 
 
-
-
-
+########################排程器########################
+        # scheduler = BackgroundScheduler()
+        # scheduler.start()
+        # scheduler.add_job(
+        #     func=print_date_time,
+        #     trigger=IntervalTrigger(seconds=3),
+        #     replace_existing=True)
+        # atexit.register(lambda: scheduler.shutdown())
+########################排程器########################
 
         rmsg(replyToken, replyMSG, text, sticker, packageID, media)
         return "POST"
@@ -93,5 +98,5 @@ def hello_world():
 
 
 if __name__ == '__main__':
-    
-    app.run(host='127.0.0.1', port=5000,debug = True)
+
+    app.run(host='127.0.0.1', port=5000, debug=True)
