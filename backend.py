@@ -20,7 +20,7 @@ def hello_world():
         if text in fist:
             replyMSG=Pss(text,fist)# 猜拳    
         if text =='新聞':
-            media,replyMSG=NewsTitle(text)      
+            media,replyMSG=NewsTopic(text)      
         rmsg(replyToken, replyMSG, text, sticker, packageID, media)
         return "POST"
     else:
