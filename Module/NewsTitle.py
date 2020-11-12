@@ -1,8 +1,6 @@
-from a113news import news
-def NewsTopic(text):
+def NewsTopic(text,a):
     newstitle = ''
     media = ''
-    a = news()
     # 媒體
     for i in a['headNews'][0]:
         media = media+i+'\n'
