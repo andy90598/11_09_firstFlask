@@ -3,6 +3,7 @@ from a11_3_news import news
 import requests
 import json
 import random
+from Module.replyMessage import ReplayMessage as rmsg
 
 app = Flask(__name__) #這段是一定要打的
 
@@ -37,11 +38,6 @@ def hello_world():
                     replyMSG="電腦出"+fist[ai]+"，你獲勝"
                 else: 
                     replyMSG="電腦出"+fist[ai]+"，你輸了"
-        # for i in a.keys():
-        #     print(i)
-        #     for j in a[i]:
-        #         print(j)
-        #     print('--------------------')
         #####################################################################
         ############################reply user###############################
         url='https://api.line.me/v2/bot/message/reply'
@@ -79,17 +75,8 @@ def hello_world():
                         "text":"輸入想找的媒體"
                     },
                 ]
-            }       
-        else:
-            data={
-                "replyToken":replyToken,
-                "messages":[
-                    {
-                        "type":"text",
-                        "text":replyMSG
-                    }
-                ]
-            }
+            }    
+        rmsg(replyToken,replyMSG)   
         r=requests.post(url,headers=headers,data=json.dumps(data))
         #####################################################################
         ############################reply user###############################
