@@ -51,8 +51,8 @@ def hello_world():
             print(media)
         elif text in list_media:
             text = NewsTopic(text, a)
-        elif text =='591':
-            rent_flex=Rent()
+        elif text.index('租屋'):
+            rent_flex=Rent(text)
             
             
 
@@ -68,7 +68,7 @@ def hello_world():
         # atexit.register(lambda: scheduler.shutdown())
 ########################排程器########################
 
-        rmsg(replyToken, message, text,media,rent_flex)
+        rmsg(replyToken,message, text,media,rent_flex)
         return "POST"
     else:
         return "GET"
