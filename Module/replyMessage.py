@@ -119,7 +119,7 @@ def ReplayMessage(replyToken, message, text, media,rent_flex):
                 }
             ]
         }
-    elif text=='591':
+    elif text.find('租屋' != -1):
         data = {
             "replyToken": replyToken,
             "messages": [
@@ -136,5 +136,7 @@ def ReplayMessage(replyToken, message, text, media,rent_flex):
                 },
             ]
         }
+    print(data)
     r = requests.post(url, headers=headers, data=json.dumps(data))
+
     return r
