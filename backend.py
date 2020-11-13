@@ -48,6 +48,7 @@ def hello_world():
             text = Pss(text, fist)  # 猜拳
         if text == '新聞':
             media = NewsTopic(text,a)
+            print(media)
         elif text in list_media:
             text = NewsTopic(text, a)
         elif text =='591':
