@@ -40,6 +40,7 @@ def hello_world():
         a = news()
         for i in a['headNews'][0]:
             list_media.append(i)
+        print(list_media)
 
         fist = ['剪刀', '石頭', '布']
 
