@@ -34,15 +34,11 @@ def hello_world():
         replyToken = message.get('replyToken')  # 存token
         text = message.get('message').get('text')  # 存text
 
-        media = ''
         list_media = []
         a = news()
         for i in a['headNews'][0]:
-            media = media+i+'\n'
-        list_media = media.split('\n')
-        media = ''
-        print(list_media)
-
+            list_media.append(i)
+            
         fist = ['剪刀', '石頭', '布']
         if text in fist:
             text = Pss(text, fist)  # 猜拳
@@ -56,6 +52,7 @@ def hello_world():
             rent_flex=Rent()
         else:
             rent_flex=''
+            media = ''
             
 
 
