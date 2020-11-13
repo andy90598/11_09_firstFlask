@@ -53,7 +53,6 @@ def hello_world():
             rent_flex=Rent(text)
 
         rmsg(replyToken,message, text,media,rent_flex)
-        print(rmsg)
         return "POST"
     else:
         return "GET"
