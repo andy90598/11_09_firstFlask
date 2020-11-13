@@ -3,6 +3,7 @@ from Module.NewsTitle import NewsTopic
 from Module.replyMessage import ReplayMessage as rmsg
 from Module.PSS import Pss
 from Module.a113news import news
+from Module.RentHouse import Rent
 import requests
 import atexit
 
@@ -47,10 +48,12 @@ def hello_world():
             text = Pss(text, fist)  # 猜拳
         if text == '新聞':
             a = news()
-            media = NewsTopic(text,a)
+            media = NewsTopic(text, a)
         elif text in list_media:
             a = news()
             text = NewsTopic(text, a)
+        elif text == '591':
+            rent_flex = Rent()
 
 
 ########################排程器########################
@@ -63,7 +66,7 @@ def hello_world():
         # atexit.register(lambda: scheduler.shutdown())
 ########################排程器########################
 
-        rmsg(replyToken, message, text,media)
+        rmsg(replyToken, message, text, media, rent_flex)
         return "POST"
     else:
         return "GET"

@@ -2,7 +2,7 @@ import requests
 import json
 
 
-def ReplayMessage(replyToken, message, text, media):
+def ReplayMessage(replyToken, message, text, media,rent_flex):
     url = 'https://api.line.me/v2/bot/message/reply'
     accessToken = 'zTG6hdHrhApoeawkkdWpvspMdPq2Sc7SSztnQvIZmRiEWfamI8hFdMoRrpSoChN/ME27bdbC2nsCtchvVVfaY+CS0Tj8RQDAcqlTIq7ujZ6uAnn7UnmqxT/0X5fK4vq0UQrg9tEsTPJNlAT+JvOy4QdB04t89/1O/w1cDnyilFU='
     headers = {
@@ -116,6 +116,13 @@ def ReplayMessage(replyToken, message, text, media):
                     }
 
                 }
+            ]
+        }
+    elif text=='591':
+        data = {
+            "replyToken": replyToken,
+            "messages": [
+                rent_flex
             ]
         }
     else:

@@ -1,0 +1,509 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "巴黎第六區✨稀有入門玄關超美寧靜戶限家庭",
+                        "align": "center",
+                        "gravity": "center",
+                        "wrap": true,
+                        "contents": []
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://hp2.591.com.tw/house/active/2020/09/26/160111960715910506_210x158.crop.jpg",
+                "size": "full",
+                "aspectRatio": "1.51:1",
+                "aspectMode": "fit"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "查看詳情",
+                            "uri": "https://rent.591.com.tw/rent-detail-10016304.html"
+                        },
+                        "color": "#43DE2BFF",
+                        "margin": "xs",
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "新落成大套房（乾溼分離衛浴）",
+                        "align": "center",
+                        "gravity": "center",
+                        "wrap": true,
+                        "contents": []
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://hp1.591.com.tw/house/active/2017/06/27/149852245242111802_210x158.crop.jpg",
+                "size": "full",
+                "aspectRatio": "1.51:1",
+                "aspectMode": "fit"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "查看詳情",
+                            "uri": "https://rent.591.com.tw/rent-detail-10033644.html"
+                        },
+                        "color": "#43DE2BFF",
+                        "margin": "xs",
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "🎉市政府捷運電梯超值大套房✨最便宜",
+                        "align": "center",
+                        "gravity": "center",
+                        "wrap": true,
+                        "contents": []
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://hp1.591.com.tw/house/active/2019/11/01/157258235317684402_210x158.crop.jpg",
+                "size": "full",
+                "aspectRatio": "1.51:1",
+                "aspectMode": "fit"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "查看詳情",
+                            "uri": "https://rent.591.com.tw/rent-detail-9980271.html"
+                        },
+                        "color": "#43DE2BFF",
+                        "margin": "xs",
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "⚜️巴黎萊雅⚜️奢華首選⚜️極致享受",
+                        "align": "center",
+                        "gravity": "center",
+                        "wrap": true,
+                        "contents": []
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://hp2.591.com.tw/house/active/2020/10/27/160379298773694609_210x158.crop.jpg",
+                "size": "full",
+                "aspectRatio": "1.51:1",
+                "aspectMode": "fit"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "查看詳情",
+                            "uri": "https://rent.591.com.tw/rent-detail-10014919.html"
+                        },
+                        "color": "#43DE2BFF",
+                        "margin": "xs",
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "味霖⚜️稀有釋出⚜️超大空間⚜️低調奢華",
+                        "align": "center",
+                        "gravity": "center",
+                        "wrap": true,
+                        "contents": []
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://hp1.591.com.tw/house/active/2020/11/10/160502067778879101_210x158.crop.jpg",
+                "size": "full",
+                "aspectRatio": "1.51:1",
+                "aspectMode": "fit"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "查看詳情",
+                            "uri": "https://rent.591.com.tw/rent-detail-10088775.html"
+                        },
+                        "color": "#43DE2BFF",
+                        "margin": "xs",
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "全新完工北歐風格,免仲介費,可寵",
+                        "align": "center",
+                        "gravity": "center",
+                        "wrap": true,
+                        "contents": []
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://hp1.591.com.tw/house/active/2020/04/28/158804028978780006_210x158.crop.jpg",
+                "size": "full",
+                "aspectRatio": "1.51:1",
+                "aspectMode": "fit"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "查看詳情",
+                            "uri": "https://rent.591.com.tw/rent-detail-9973356.html"
+                        },
+                        "color": "#43DE2BFF",
+                        "margin": "xs",
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "近中科台中火車站，中醫一中中友中教大套房",
+                        "align": "center",
+                        "gravity": "center",
+                        "wrap": true,
+                        "contents": []
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://hp2.591.com.tw/house/active/2020/11/11/160507514308890500_210x158.crop.jpg",
+                "size": "full",
+                "aspectRatio": "1.51:1",
+                "aspectMode": "fit"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "查看詳情",
+                            "uri": "https://rent.591.com.tw/rent-detail-10017134.html"
+                        },
+                        "color": "#43DE2BFF",
+                        "margin": "xs",
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "近中科中醫一中~中友中教大【大二房二廳】",
+                        "align": "center",
+                        "gravity": "center",
+                        "wrap": true,
+                        "contents": []
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://hp2.591.com.tw/house/active/2020/11/04/160445622188094609_210x158.crop.jpg",
+                "size": "full",
+                "aspectRatio": "1.51:1",
+                "aspectMode": "fit"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "查看詳情",
+                            "uri": "https://rent.591.com.tw/rent-detail-10053914.html"
+                        },
+                        "color": "#43DE2BFF",
+                        "margin": "xs",
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "嶺東科大精密園區電梯套房忠勇路永春南路口",
+                        "align": "center",
+                        "gravity": "center",
+                        "wrap": true,
+                        "contents": []
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://hp1.591.com.tw/house/active/2018/09/25/153786715547155500_210x158.crop.jpg",
+                "size": "full",
+                "aspectRatio": "1.51:1",
+                "aspectMode": "fit"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "查看詳情",
+                            "uri": "https://rent.591.com.tw/rent-detail-10086845.html"
+                        },
+                        "color": "#43DE2BFF",
+                        "margin": "xs",
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "全新未入住🌟二房一廳🌟大陽台🌟",
+                        "align": "center",
+                        "gravity": "center",
+                        "wrap": true,
+                        "contents": []
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://hp2.591.com.tw/house/active/2020/10/31/160415710080625307_210x158.crop.jpg",
+                "size": "full",
+                "aspectRatio": "1.51:1",
+                "aspectMode": "fit"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "查看詳情",
+                            "uri": "https://rent.591.com.tw/rent-detail-10037767.html"
+                        },
+                        "color": "#43DE2BFF",
+                        "margin": "xs",
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "🌟正一房一廳🌟流理台🌟陽台",
+                        "align": "center",
+                        "gravity": "center",
+                        "wrap": true,
+                        "contents": []
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://hp2.591.com.tw/house/active/2020/11/01/160421744981139206_210x158.crop.png",
+                "size": "full",
+                "aspectRatio": "1.51:1",
+                "aspectMode": "fit"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "查看詳情",
+                            "uri": "https://rent.591.com.tw/rent-detail-10039894.html"
+                        },
+                        "color": "#43DE2BFF",
+                        "margin": "xs",
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "小紀🌟獨棟電梯🌟一層一戶🌟大露臺",
+                        "align": "center",
+                        "gravity": "center",
+                        "wrap": true,
+                        "contents": []
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://hp2.591.com.tw/house/active/2020/10/31/160415592068497701_210x158.crop.jpg",
+                "size": "full",
+                "aspectRatio": "1.51:1",
+                "aspectMode": "fit"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "查看詳情",
+                            "uri": "https://rent.591.com.tw/rent-detail-10033614.html"
+                        },
+                        "color": "#43DE2BFF",
+                        "margin": "xs",
+                        "style": "link"
+                    }
+                ]
+            }
+        }
+    ]
+}
