@@ -49,7 +49,7 @@ def hello_world():
             media = NewsTopic(text,a)
         elif text in list_media:
             text = NewsTopic(text, a)
-        elif text.index('租屋'):
+        elif text.find('租屋') != -1:
             rent_flex=Rent(text)
 
         rmsg(replyToken,message, text,media,rent_flex)
