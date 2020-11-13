@@ -21,6 +21,7 @@ def ReplayMessage(replyToken, message, text, media,rent_flex):
             ]
         }
     elif text == '新聞':
+        print('media=',media)
         data = {
             "replyToken": replyToken,
             "messages": [
