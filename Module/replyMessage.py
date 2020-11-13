@@ -134,6 +134,22 @@ def ReplayMessage(replyToken, message, text, media,rent_flex):
                     "type": "text",
                     "text": text
                 },
+                {
+                    "type": "text",
+                    "text": "輸入媒體名稱查看當日頭條 ex'新頭殼'"
+                },
+                {
+                    "type": "text",
+                    "text": "輸入 '租屋 縣市名' 查看租屋資訊 ex'租屋 台中市'"
+                },
+                {
+                    "type": "text",
+                    "text": "輸入 '新聞' 查看新聞標題"
+                },
+                {
+                    "type": "text",
+                    "text": "輸入剪刀石頭布 猜拳"
+                },
             ]
         }
     print(json.dumps(data))
