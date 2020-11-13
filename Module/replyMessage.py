@@ -136,7 +136,7 @@ def ReplayMessage(replyToken, message, text, media,rent_flex):
                 },
             ]
         }
-    print(data)
+    print(json.dumps(data))
     r = requests.post(url, headers=headers, data=json.dumps(data))
 
     return r
