@@ -33,12 +33,15 @@ def hello_world():
         message = request.get_json().get('events')[0]  # 存對方送進來的資料
         replyToken = message.get('replyToken')  # 存token
         text = message.get('message').get('text')  # 存text
+        rent_flex=''
+        media = ''
+
 
         list_media = []
         a = news()
         for i in a['headNews'][0]:
             list_media.append(i)
-            
+
         fist = ['剪刀', '石頭', '布']
         if text in fist:
             text = Pss(text, fist)  # 猜拳
@@ -50,9 +53,7 @@ def hello_world():
             text = NewsTopic(text, a)
         elif text =='591':
             rent_flex=Rent()
-        else:
-            rent_flex=''
-            media = ''
+            
             
 
 
