@@ -31,7 +31,7 @@ def ReplayMessage(replyToken, message, text, media,rent_flex):
                 },
                 {
                     "type": "text",
-                    "t   ext": "輸入想找的媒體"
+                    "text": "輸入想找的媒體"
                 },
             ]
         }
