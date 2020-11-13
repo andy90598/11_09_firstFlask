@@ -119,7 +119,7 @@ def ReplayMessage(replyToken, message, text, media,rent_flex):
                 }
             ]
         }
-    elif text.find('租屋' != -1):
+    elif text.find('租屋') != -1:
         data = {
             "replyToken": replyToken,
             "messages": [
