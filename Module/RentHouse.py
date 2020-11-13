@@ -9,9 +9,12 @@ def Rent(text):
     cityName = text.split(' ')[1].replace('臺', '台')
 
     if cityId.get(cityName) != None:
+        cookies={
+            'urlJumpIp':cityId.get(cityName)
+        }
         url = 'https://rent.591.com.tw/?kind=0&region='+cityId.get(cityName)
 
-        r = requests.get(url)
+        r = requests.get(url,cookies=cookies)
         soup = BeautifulSoup(r.text, 'html.parser')
         houseCards = soup.select('.listInfo')
 
