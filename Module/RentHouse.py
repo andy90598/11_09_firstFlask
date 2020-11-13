@@ -8,6 +8,8 @@ def Rent(text):
               "嘉義縣": "13", "雲林縣": "14", "台南市": "15", "高雄市": "17", "屏東縣": "19", "宜蘭縣": "21", "花蓮縣": "23", "台東縣": "22", "金門縣": "25", "澎湖縣": "24", "連江縣": "26"}
     if len(text.split(' '))==2: 
         cityName = text.split(' ')[1].replace('臺', '台')
+    else:
+        cityName=''
 
     if cityId.get(cityName) != None:
         cookies={
