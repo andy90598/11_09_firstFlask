@@ -40,7 +40,6 @@ def hello_world():
         a = news()
         for i in a['headNews'][0]:
             list_media.append(i)
-        print(list_media)
 
         fist = ['剪刀', '石頭', '布']
 
@@ -48,27 +47,13 @@ def hello_world():
             text = Pss(text, fist)  # 猜拳
         if text == '新聞':
             media = NewsTopic(text,a)
-            print(media)
         elif text in list_media:
             text = NewsTopic(text, a)
         elif text.index('租屋'):
             rent_flex=Rent(text)
-            
-            
-
-
-
-########################排程器########################
-        # scheduler = BackgroundScheduler()
-        # scheduler.start()
-        # scheduler.add_job(
-        #     func=print_date_time,
-        #     trigger=IntervalTrigger(seconds=3),
-        #     replace_existing=True)
-        # atexit.register(lambda: scheduler.shutdown())
-########################排程器########################
 
         rmsg(replyToken,message, text,media,rent_flex)
+        print(rmsg)
         return "POST"
     else:
         return "GET"
