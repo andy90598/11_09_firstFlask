@@ -36,20 +36,18 @@ def hello_world():
         rent_flex=''
         media = ''
 
-
         list_media = []
         a = news()
         for i in a['headNews'][0]:
             list_media.append(i)
 
         fist = ['剪刀', '石頭', '布']
+
         if text in fist:
             text = Pss(text, fist)  # 猜拳
         if text == '新聞':
-            a = news()
             media = NewsTopic(text,a)
         elif text in list_media:
-            a = news()
             text = NewsTopic(text, a)
         elif text =='591':
             rent_flex=Rent()
