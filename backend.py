@@ -33,6 +33,7 @@ def hello_world():
         message = request.get_json().get('events')[0]  # 存對方送進來的資料
         replyToken = message.get('replyToken')  # 存token
         text = message.get('message').get('text')  # 存text
+        print(message)
 
         media = ''
         list_media = []
@@ -41,7 +42,6 @@ def hello_world():
             media = media+i+'\n'
         list_media = media.split('\n')
         media = ''
-        print(list_media)
 
         fist = ['剪刀', '石頭', '布']
         if text in fist:
