@@ -33,7 +33,6 @@ def hello_world():
         message = request.get_json().get('events')[0]  # 存對方送進來的資料
         replyToken = message.get('replyToken')  # 存token
         text = message.get('message').get('text')  # 存text
-        print(message)
 
         media = ''
         list_media = []
@@ -42,18 +41,23 @@ def hello_world():
             media = media+i+'\n'
         list_media = media.split('\n')
         media = ''
+        print(list_media)
 
         fist = ['剪刀', '石頭', '布']
         if text in fist:
             text = Pss(text, fist)  # 猜拳
         if text == '新聞':
             a = news()
-            media = NewsTopic(text, a)
+            media = NewsTopic(text,a)
         elif text in list_media:
             a = news()
             text = NewsTopic(text, a)
-        elif text == '591':
-            rent_flex = Rent()
+        elif text =='591':
+            rent_flex=Rent()
+        else:
+            rent_flex=''
+            
+
 
 
 ########################排程器########################
@@ -66,7 +70,7 @@ def hello_world():
         # atexit.register(lambda: scheduler.shutdown())
 ########################排程器########################
 
-        rmsg(replyToken, message, text, media, rent_flex)
+        rmsg(replyToken, message, text,media,rent_flex)
         return "POST"
     else:
         return "GET"
