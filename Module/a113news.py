@@ -19,6 +19,7 @@ def news():
         b[data2[i].text]['title'].append(data[i].text)
         b[data2[i].text]['link'].append('https://news.google.com/'+link[i].get('href')[2:])
     c['headNews'].append(b)
+    print(c)
     return c
 # a=news()
 # newstitle=''
