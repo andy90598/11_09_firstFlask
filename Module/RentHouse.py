@@ -93,3 +93,4 @@ def Rent(text):
         return flex_box
     else:
         return ''
+#Rent("租屋 台北市") 測試
