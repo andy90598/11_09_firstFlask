@@ -27,7 +27,7 @@ body{
     height: 150px;
     background-color: blueviolet;
     margin-bottom: 10px;
-    background-image: url("img/FGO4.jpg");
+    background-image: url("../img/FGO4.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -53,18 +53,18 @@ body{
     transition: 0.7s;   
 }
 .box1{
-    background-image: url("img/FGO1.png"); 
+    background-image: url("../img/FGO1.png"); 
     background-color: red;
     margin-right: 5px;
 }
 .box2{
     background-color: salmon;
-    background-image: url("img/FGO2.jpg");
+    background-image: url("../img/FGO2.jpg");
     margin-right:5px;
 }
 .box3{
     background-color: blue;
-    background-image: url("img/FGO3.jpg");
+    background-image: url("../img/FGO3.jpg");
 }
 .mask{
     background-color: black;
@@ -130,7 +130,7 @@ body{
         height: 80px;
         background-color: blueviolet;
         margin-bottom: 0px;
-        background-image: url("img/FGO4.jpg");
+        background-image: url("../img/FGO4.jpg");
         background-position: center;
         background-size: cover;
     }
@@ -160,14 +160,14 @@ body{
         transition: 0.7s;   
     }
     .box1{
-        background-image: url("img/FGO1.png"); 
+        background-image: url("../img/FGO1.png"); 
         background-color: red;
         width:100%;
         margin-bottom: 5px;
     }
     .box2{
         background-color: salmon;
-        background-image: url("img/FGO2.jpg");
+        background-image: url("../img/FGO2.jpg");
         width: calc(50% - 2.5px);
         margin-right:5px;
     }
@@ -192,7 +192,7 @@ body{
         height: 54px;
         background-color: blueviolet;
         margin-bottom: 0px;
-        background-image: url("img/FGO4.jpg");
+        background-image: url("../img/FGO4.jpg");
         background-position: center;
         background-size: cover;
         margin-right: auto;
@@ -241,14 +241,14 @@ body{
         transition: 0.7s;   
     }
     .box1{
-        background-image: url("img/FGO1.png"); 
+        background-image: url("../img/FGO1.png"); 
         background-color: red;
         width:100%;
         margin-bottom: 0px;
     }
     .box2{
         background-color: salmon;
-        background-image: url("img/FGO2.jpg");
+        background-image: url("../img/FGO2.jpg");
         width: 100%;
         margin-right:0px;
     }
