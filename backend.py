@@ -78,10 +78,9 @@ def hello_world():
 #         ]
 #         return render_template('hello.html',Info=Info,title=title)
 
-# @app.route('/headnews',methods=['POST','GET'])
-# def get_news():
-#     news()
-#     return news()
+@app.route('/home',methods=['POST','GET'])
+def home():
+    return render_template("index.html")
 
 
 if __name__ == '__main__':
